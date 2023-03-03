@@ -8,19 +8,20 @@ const NavBar = () => {
         setNavbar(!navbar);
     };
 //navbar, reference tailwind
+//try to not hard code the spacing between nav and aboutme, figure that out
   return (
-    <div className="w-screen h-screen flex justify-center text-black font-black tracking-wide text-xl">
+    <div className="w-screen flex justify-center font-bolder text-black tracking-wide text-xl">
         
-      <ul className="md:flex hidden">
+      <ul className="md:flex pt-3.5 pb-5">
 
         <a onClick={handleNav} href="#about">
-          <li className="m-2 p-7 cursor-pointer hover:scale-110">ABOUT</li>
+          <li className="p-7 cursor-pointer hover:scale-110">ABOUT</li>
         </a>
         <a onClick={handleNav} href="#projects">
-          <li className="m-2 p-7 cursor-pointer hover:scale-110">PROJECTS</li>
+          <li className="p-7 cursor-pointer hover:scale-110">PROJECTS</li>
         </a>
         <a onClick={handleNav} href="#contact">
-          <li className="m-2 p-7 cursor-pointer hover:scale-110">CONTACT</li>
+          <li className="p-7 cursor-pointer hover:scale-110">CONTACT</li>
         </a>
 
       </ul>
