@@ -23,9 +23,10 @@ const NavBar = () => {
         <a onClick={handleNav} href="#contact">
           <li className="p-7 cursor-pointer hover:scale-110">CONTACT</li>
         </a>
+        {/* add resume */}
 
       </ul>
-
+        
     </div>
   );
 
