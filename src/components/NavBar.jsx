@@ -1,20 +1,37 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+// import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
-export default function NavBar() {
-    const [navBar, setnavBar] = useState(false);
+const NavBar = () => {
+    const [navbar, setNavbar] = useState(false);
+
     const handleNav = () => { 
-        setnavBar(!navBar);
+        setNavbar(!navbar);
     };
-
-    return (
+//navbar, reference tailwind
+  return (
+    <div className="w-screen h-screen flex justify-center text-black font-black tracking-wide text-xl">
         
-    <div className=" w-screen h-screen flex items-center justify-center p-7">
-      <div className= "w-full h-full border border-white">
-      </div>
-    </div>
-    
-    )
+      <ul className="md:flex hidden">
 
-}
+        <a onClick={handleNav} href="#about">
+          <li className="m-2 p-7 cursor-pointer hover:scale-110">ABOUT</li>
+        </a>
+        <a onClick={handleNav} href="#projects">
+          <li className="m-2 p-7 cursor-pointer hover:scale-110">PROJECTS</li>
+        </a>
+        <a onClick={handleNav} href="#contact">
+          <li className="m-2 p-7 cursor-pointer hover:scale-110">CONTACT</li>
+        </a>
+
+      </ul>
+
+    </div>
+  );
+
+};
+
+export default NavBar;
+
+
 
 
