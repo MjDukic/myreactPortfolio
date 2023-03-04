@@ -1,6 +1,8 @@
 import React from "react";
 
-//maybe add handwave after h1
+//maybe add a picture of me
+//github and linkedin avatars werent working, figure it out
+
 
 function About() {
     return (
@@ -12,6 +14,16 @@ function About() {
                   <p className="pt-6 text-center text-2xl font-bold text-neutral-700 tracking-wide break-all"> 
                         I am an aspiring full-stack developer, driven to learn and grow
                   </p>
+                <div className="pt-7 text-center content-center gap-x-6 lg:justify-start">
+                    <a href="https://www.linkedin.com/in/mirjanadukic/" className="text-md font-semibold leading-6 text-white p-3">
+                        LINKEDIN <span aria-hidden="true">→</span>
+                    </a>
+
+                    <a href="https://github.com/MjDukic" className="text-md font-semibold leading-6 text-white p-3">
+                        GITHUB <span aria-hidden="true">→</span>
+                    </a>
+                </div>
+
             </div>
         </section>
     );

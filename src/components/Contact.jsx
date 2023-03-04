@@ -1,6 +1,8 @@
 import React from 'react';
 
 //guidance from tailwind components
+//https://tailwindcomponents.com/component/contact-form
+
 
 const Contact = () => {
   return (
@@ -26,7 +28,7 @@ const Contact = () => {
             <input
               type="text"
               id="subject"
-              class="block p-3 w-full text-sm text-blue-500 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 "
+              class="block p-3 w-full text-sm text-black bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 "
               placeholder="subject"
               required
             />
@@ -41,7 +43,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="bg-black text-white px-2 py-1 rounded-lg mt-3 hover:bg-blue-600"
+            className="bg-black text-white px-2 py-1 rounded-lg mt-3 hover:bg-stone-600"
           >
             send message
           </button>

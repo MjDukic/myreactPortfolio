@@ -4,11 +4,9 @@ import NavBar from './components/NavBar'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Projects from './components/Projects'
 
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import './App.css'
-
+//main route for the app, where all the components are rendered
 function App() {
 
   return (
@@ -18,6 +16,9 @@ function App() {
       </div>
       <div>
         <About />
+      </div>
+      <div>
+        <Projects />
       </div>
       <div>
         <Contact />
