@@ -1,11 +1,15 @@
 import React from 'react';
 
+//https://tailwind-elements.com/docs/standard/components/cards/
+
+//add images, figure that out
+
 
 const Projects = () => {
   return (
     <section id="projects">
-        <div class="flex justify-center">
-            <div class="block max-w-sm rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-700">
+        <div class="flex justify-center ">
+            <div class="block max-w-sm rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-700 mx-6 ">
                 <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
                     Movie Review Site
                 </h5>
@@ -20,9 +24,7 @@ const Projects = () => {
                 </a>
             </div>
             </div>
-        </div>
-        <div class="flex justify-center p-3">
-            <div class="block max-w-sm rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-700">
+            <div class="block max-w-sm rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-700 mx-6">
                 <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
                     isGame:True
                 </h5>
@@ -36,6 +38,44 @@ const Projects = () => {
                 </p>
             <div class="">
                 <a href="https://github.com/MjDukic/project2-isGame-true">
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">REPO</span>
+                </a>
+            </div>
+            </div>
+        </div>
+        <div class="flex justify-center mt-6 px-6">
+            <div class="block max-w-sm rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-700 mx-6">
+                <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+                    React Portfolio
+                </h5>
+                <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+                Implemented Node and Express to create a RESTful API, 
+                Handlebars as the template engine, MySQl and Sequelize ORM for the database, 
+                created authentication with express-session and cookies, and used MVC paradigm.
+                 Created game with help from Tiled and Phasier.io technologies, deployed on Heroku. 
+                 The web game called “isGame: True” tests your reaction time and speed, the goal is to 
+                 avoid all of the enemies and get as many stars as you can
+                </p>
+            <div class="">
+                <a href="https://github.com/MjDukic/myreactPortfolio">
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">REPO</span>
+                </a>
+            </div>
+            </div>
+            <div class="block max-w-sm rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-700 mx-6">
+                <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+                    NoSQL: Social Network API
+                </h5>
+                <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+                Implemented Node and Express to create a RESTful API, 
+                Handlebars as the template engine, MySQl and Sequelize ORM for the database, 
+                created authentication with express-session and cookies, and used MVC paradigm.
+                 Created game with help from Tiled and Phasier.io technologies, deployed on Heroku. 
+                 The web game called “isGame: True” tests your reaction time and speed, the goal is to 
+                 avoid all of the enemies and get as many stars as you can
+                </p>
+            <div class="">
+                <a href="https://github.com/MjDukic/wk18-NoSQL-SocialNetworkAPI">
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">REPO</span>
                 </a>
             </div>

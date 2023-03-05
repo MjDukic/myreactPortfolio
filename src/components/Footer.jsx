@@ -1,12 +1,14 @@
 import React from 'react';
 
+//https://tailwind-elements.com/docs/standard/navigation/footer/
+
 const Footer = () => {
   return (
     <footer class="text-center text-white">
   <div class="container px-6 pt-6">
     <div class="mb-6 flex justify-center">
 
-      <a
+      {/* <a
         href="#!"
         type="button"
         class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
@@ -22,7 +24,7 @@ const Footer = () => {
             fill-rule="evenodd"
             clip-rule="evenodd" />
         </svg>
-      </a>
+      </a> */}
 
 
       <a

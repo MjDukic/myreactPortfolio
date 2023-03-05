@@ -1,5 +1,4 @@
 import { useState } from 'react';
-// import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const NavBar = () => {
     const [navbar, setNavbar] = useState(false);
@@ -8,7 +7,7 @@ const NavBar = () => {
         setNavbar(!navbar);
     };
 //navbar, reference tailwind
-//try to not hard code the spacing between nav and aboutme, figure that out
+
   return (
     <div className="w-screen flex justify-center font-bolder text-black tracking-wide text-xl">
         
@@ -23,7 +22,6 @@ const NavBar = () => {
         <a onClick={handleNav} href="#contact">
           <li className="p-7 cursor-pointer hover:scale-110">CONTACT</li>
         </a>
-        {/* add resume */}
 
       </ul>
         
