@@ -78,15 +78,17 @@ const Projects = () => {
         <div class="flex justify-center mt-6 px-6">
             <div class="block max-w-sm rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-700 mx-6">
             <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-                Professional Readme Generator
+                Anaxi Mapper
                 </h5>
                 <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-                This assignment's goal was to create a command-line application that dynamically 
-                generates a professional README.md from a user's input. To be able to do this, we used
-                Node.js and the Inquirer package.
+                Users can navigate to addresses or cities and create search parameters to 
+                locate places of interest nearby, which will generate an overlay of 3d models 
+                and markers for ease of viewing. Used MERN and rest API, tailwind, Jotai, 
+                Google Maps API, typerscript, etc. 
+
                 </p>
             <div class="">
-                <a href="https://github.com/MjDukic/Professional-ReadMe-Generator-Wk9">
+                <a href="https://www.anaxi.app">
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">REPO</span>
                 </a>
             </div>
