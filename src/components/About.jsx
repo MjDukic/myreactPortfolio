@@ -22,7 +22,7 @@ function About() {
                     <a href="https://github.com/MjDukic" className="text-md font-semibold leading-6 text-white p-3">
                         GITHUB <span aria-hidden="true">→</span>
                     </a>
-                    <a href="https://docs.google.com/document/d/e/2PACX-1vTtnMu314D4TgPXQNnLtMEHVB-veCF7CLqWb4x129jVUP8ckCwINPU8n-x6cR4AwVnieMgUv-ReOxEp/pub" className="text-md font-semibold leading-6 text-white p-3">
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vQg8hUpIwPNdn9eoRU6oSiSc8DrIwYAlWMFo0ehwRzWmVQrj7STy4qjAVBolLAhYCMbtz-CcocX0hyY/pub" className="text-md font-semibold leading-6 text-white p-3">
                         RESUME <span aria-hidden="true">→</span>
                     </a>
                 </div>
